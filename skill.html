@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <style>
+      body {
+        background-color: #081b29;
+        color: #fff;
+        font-family: "Arial", sans-serif;
+      }
+
+      header {
+        color: #fff;
+        text-align: center;
+        padding: 60px 0;
+        margin-bottom: 40px;
+      }
+
+      .about,
+      .projects {
+        margin: 20px auto;
+        max-width: 1000px;
+      }
+
+      .about h2,
+      .projects h2 {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #fff;
+      }
+
+      .project {
+        background-color: #00abf0;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .project:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.8);
+      }
+
+      .project img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+
+      .card-title {
+        color: #fff;
+        font-weight: bold;
+      }
+
+      .card-text {
+        color: #ccc;
+      }
+
+      footer {
+        background: linear-gradient(135deg, #292929, #0a0a0a);
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 40px;
+      }
+
+      .fa {
+        margin-right: 10px;
+      }
+
+      .navbar {
+        margin-bottom: 20px;
+      }
+
+      .nav-link {
+        color: #fff !important;
+      }
+
+      .navbar-brand {
+        font-weight: bold;
+        color: #fff !important;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Skill</h1>
+    </header>
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card project">
+              <img src="img/react.png" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title">React</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img src="img/laravel.png" class="card-img-top" alt="Project 2" />
+              <div class="card-body">
+                <h5 class="card-title">Laravel</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img src="img/CI.png" class="card-img-top" alt="Project 3" />
+              <div class="card-body">
+                <h5 class="card-title">Codeigniter</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img src="img/postgre.png" class="card-img-top" alt="Project 4" />
+              <div class="card-body">
+                <h5 class="card-title">postgreSQL</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img src="img/css.png" class="card-img-top" alt="Project 5" />
+              <div class="card-body">
+                <h5 class="card-title">CSS</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img src="img/dart.png" class="card-img-top" alt="Project 5" />
+              <div class="card-body">
+                <h5 class="card-title">Bahasa Dart</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img src="img/excel.png" class="card-img-top" alt="Project 5" />
+              <div class="card-body">
+                <h5 class="card-title">Microsoft Excel</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img src="img/figma.png" class="card-img-top" alt="Project 5" />
+              <div class="card-body">
+                <h5 class="card-title">Figma</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img src="img/flutter.png" class="card-img-top" alt="Project 5" />
+              <div class="card-body">
+                <h5 class="card-title">flutter</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img src="img/html.png" class="card-img-top" alt="Project 5" />
+              <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img src="img/java.png" class="card-img-top" alt="Project 5" />
+              <div class="card-body">
+                <h5 class="card-title">Bahasa Java</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img src="img/php.png" class="card-img-top" alt="Project 5" />
+              <div class="card-body">
+                <h5 class="card-title">Bahasa PHP</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img src="img/python.png" class="card-img-top" alt="Project 5" />
+              <div class="card-body">
+                <h5 class="card-title">Bahasa Python</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card project">
+              <img src="img/word.png" class="card-img-top" alt="Project 5" />
+              <div class="card-body">
+                <h5 class="card-title">Microsoft Word</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS and Popper.js (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
